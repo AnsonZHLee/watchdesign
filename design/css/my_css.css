@@ -1,0 +1,88 @@
+@charset "utf-8";
+body{
+    width:100%;
+	margin-top:0;
+	margin-left:0;
+	font-size:100%;
+	font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+	background:#eee;	
+}
+.work_list{
+	width:180px;
+	position:fixed;
+	top:0;
+	left:0;
+	background: url(../images/narrow_l.png) #ccc no-repeat;
+	background-position:right 20px;
+	padding:20px 30px 0 0;
+	overflow:auto;
+	height:100%;
+	transition:left .2s ease-in;
+}
+.work_listTo{
+	left:-180px !important;
+}
+.work_list ul{
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+.work_list ul li{
+	text-align:right;
+	position: relative;
+}
+.work_list ul li a{
+	display:block;
+	padding:3px 10px 3px 10px;
+	text-decoration:none;
+	color:#FFF;
+}
+.work_list ul li:first-child a{
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	display: inline-block;
+	right: -32px;
+	top: 0;
+	width: 1em;
+	font-size:16px;
+	font-weight:bold;
+	line-height: 1.2em;
+}
+.work_list ul li:first-child a:hover{
+	color:#666;
+	background:none;
+}
+.work_list ul li a:hover{
+	background-color:#999;
+}
+.work_pic{
+	margin-left:200px;
+	font-size:18px;
+	line-height:2em;
+}
+.work_pic ul, .work_pic ol{
+	margin-left:60px;
+}
+.work_pic img{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+#go_top{
+	display:block;	
+	width:1284px;
+	text-align:right;
+	margin-left:auto;
+	margin-right:auto;
+}
+.cut img{
+	padding-bottom:5px;
+	border-bottom:2px dotted #666
+}
+.cut::after{
+	content:"以下省略";
+	display:block;
+	text-align:center;
+}

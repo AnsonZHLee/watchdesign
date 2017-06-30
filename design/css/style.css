@@ -1,0 +1,290 @@
+/* CSS Document */
+
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.clearfix { 
+	*zoom:1;
+}
+.clearfix:before, .clearfix:after {
+	display: block;
+	content:"";
+	line-height:0;
+}
+.clearfix:after {
+	clear:both; 
+}
+
+
+/*Reset css End*/
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "微軟正黑體";
+	background: url(../images/d_bg.jpg) 50% 13% fixed no-repeat;
+	background-size: cover;
+}
+
+a{
+	text-decoration: none;
+}
+
+#menu{
+	position: fixed;
+	width: 100%;
+	height: 65px;
+	top: 0;
+	z-index: 100;
+	background: url(../images/menu_bg.png) repeat;
+}
+
+#menu_block{
+	position: relative;
+	width: 990px;
+	margin: auto;
+}
+
+#menu li{
+	float: left;
+	line-height: 1.5;
+	font-size: 1em;
+	padding: 20px 5px 8px 5px;
+	margin-right: 10px;
+	color: #fff;
+}
+
+#menu li a{
+	color: #fff;
+}
+
+#logo{
+	float: left;
+	margin-right: 40px;
+	margin-top: 5px;
+}
+
+
+.sub_menu{
+	position: absolute;
+	bottom: -70px;
+	margin-left: -60px;
+	display: none;
+	z-index: 102;
+}
+
+#login{
+	position: fixed;
+	width: 113px;
+	height: 45px;
+	right: 30px;
+	top: 45px;
+	background: url(../images/login_bg.png) no-repeat;
+	color: #fff;
+	cursor: pointer;
+	z-index: 101;
+}
+
+.login_status{
+	display: block;
+	font-size: 14px;
+	padding: 15px;
+	margin-left: 30px;
+}
+
+#login:hover{
+	color: #3F9;
+}
+
+.login_f_top,.login_f_bottom{
+	display: block;
+	width: 178px;
+	height: 15px;
+}
+
+.login_f{
+	position: absolute;
+	left: -70px;
+	bottom: -130px;
+	z-index: 102;
+	display: none;
+}
+
+.login_close{
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 10px;
+	right: 10px;
+	z-index: 103;
+}
+
+.login_f_top{
+	background: url(../images/login_top.png) no-repeat;
+}
+
+.login_f_mid{
+	position: relative;
+	width: 178px;
+	height: auto;
+	min-height: 100px;
+	background: url(../images/login_mid.png) repeat-y;
+}
+
+.login_f_bottom{
+	background: url(../images/login_bottom.png) no-repeat;
+}
+
+.login_form{
+	display: block;
+	width: 160px;
+	height: auto;
+	padding-top: 10px;
+	margin: auto;
+	background: #002120;
+}
+
+.login_table{
+	line-height: 1;
+}
+
+.login_table td{
+	height: 30px;
+}
+
+.login_table_text{
+	width: 135px;
+	height: 20px;
+	padding-left: 5px;
+	background: url(../images/login_table_text_bg.png) repeat-x;
+	border: none;
+	color: #999;
+}
+
+.login_btn{
+	width: 60px;
+	height: 18px;
+	margin-left: 10px;
+	background: url(../images/login_btn.png) no-repeat;
+	border: none;
+	cursor: pointer;
+	font-family: "微軟正黑體";
+	color: #999;
+}
+
+#fb{
+	position: fixed;
+	width: 40px;
+	height: 191px;
+	right: 0;
+	top: 35%;
+}
+
+#wrapper{
+	width: 990px;
+	margin: auto;
+	height: auto;
+	min-height: 600px;
+}
+
+#section_01{
+	display: block;
+	width: 100%;
+	height: 495px;
+	margin-top: 12%;
+	background: url(../images/trans_bg.png) repeat;
+}
+
+.slider_dummy{
+	padding-top: 30px;
+	text-align: center;
+	margin: auto;
+}
+
+#section_02,#section_03{
+	display: block;
+	width: 990px;
+	margin: 10% auto 0 auto;
+	height: auto;
+}
+
+#section_04{
+	display: block;
+	width: 100%;
+	min-height: 431px;
+	height: auto;
+	background: #002934;
+	margin: 10% auto 0 auto;
+}
+
+
+.collaboration{
+	display: block;
+	width: 100%;
+	min-height: 175px;
+	height: auto;
+	background: #001D24;
+}
+
+#gotop_btn{
+	position: relative;
+	display: block;
+	width: 50px;
+	margin: auto;
+}
+
+#gotop_btn .g_t{
+	position: absolute;
+	top: -25px;
+	text-align: center;
+}

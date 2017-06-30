@@ -1,0 +1,36 @@
+body, html {
+	width: 100vw;
+	min-width: auto;
+}
+section:not(.preloaded) {
+	display: none;
+}
+section.preloaded {
+	display: block;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+section.preloaded img {
+	width: 94%;
+	height: auto;
+	max-width: 100%;
+	margin: 0 3%;
+}
+
+/******* iframe *******/
+section article {
+	position: static;
+}
+section article iframe {
+	position: static;
+	width: 100vw;
+	height: auto;
+	min-height: 100vh;
+}
+section article iframe body {
+	width: 100vw;
+}

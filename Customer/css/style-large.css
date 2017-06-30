@@ -1,0 +1,55 @@
+/******* basic style *******/
+header nav.HD_navA, section, footer {
+	width: 70vw;
+	margin: 0 15vw;
+	background-color: #fff;
+	box-shadow: 8px 0 10px -6px rgba(204, 204, 204, 0.8), -8px 0 10px -6px rgba(204, 204, 204, 0.8);
+}
+
+/******* footer(FT) *******/
+footer .FT_logo {
+	width: 22vmax;
+}
+footer .FT_outline {
+	width: 28vmax;
+}
+footer .FT_outline ul li {
+	line-height: 1.6vmax;
+	font-size: .8vmax;
+}
+footer .FT_photonic {
+	min-width: 18vmax;
+	font-size: .8vmax;
+}
+
+/******* 左部選單 *******/
+section aside ul li, section aside div span a {
+	font-size: .9vmax;
+}
+section aside div span a.index_tel {
+	font-size: 1.4vmax;
+}
+section aside div span a.index_email {
+	font-size: .7vmax;
+}
+
+/******* 首頁商品輪播 *******/
+article.index_aniArea div.scaling {
+	left: 27vmax;
+	width: 16vmax;
+	height: 15vmax;
+}
+article.index_aniArea div.scaling div.item div {
+	width: 20vmax;
+	height: 18vmax;
+}
+
+/******* 首頁 *******/
+article.index_outline div.index_outline_B img {
+	margin-top: 1vmax;
+}
+
+/******* 聯絡我們 *******/
+article.contact_outline div.contact_textAreaB {
+	font-size: .9vmax;
+}
